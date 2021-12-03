@@ -1,0 +1,1 @@
+insert into pessoa_model (nome) values ('Benedito')

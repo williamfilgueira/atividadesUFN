@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Servlet e JDBC</title>
+</head>
+ <body>
+        <h1>Bem-vindo ao Servlet para acesso JDBC ao Banco de Dados JavaEE1 e à tabela Pessoa</h1>
+        
+        <h3>Qual operação deseja fazer?</h3>
+        <ul>
+        	<li>
+        		<a href="cadastrar.html">CADASTRAR</a>
+        	</li>
+        	<li>
+        		<a href="consultar.html">CONSULTAR</a>
+        	</li>
+        	<li>
+        		<a href="atualizar.html">ATUALIZAR</a>
+        	</li>
+        	<li>
+        		<a href="deletar.html">DELETAR</a>
+        	</li>
+        </ul>
+        <a href="ServletPessoa">Acessar o servlet ServletPessoa - doGet</a>
+        
+        <br>
+        <br>
+        <form action="ServletPessoa" method="POST">
+                Digite o nome: 
+                <input type="text" name="nome" />
+                Digite o email: 
+                <input type="text" name="email" />
+                Digite a cidade: 
+                <input type="text" name="cidade" />
+                <input type="submit" value="Cadastrar - doPost" />
+        </form>
+    </body>
+</html>
