@@ -15,7 +15,7 @@ public class Aluno
 	
 	@Column(nullable = false)
 	private String nome;
-	
+
 	public Long getId() {
 		return id;
 	}
@@ -31,5 +31,6 @@ public class Aluno
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
+	
 	
 }
